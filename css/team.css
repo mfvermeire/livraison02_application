@@ -1,10 +1,19 @@
 main{
     background-color: darkgrey;
 }
+.team {
+    padding: 5rem;
+    text-align: center;
+}
+  
+  .team__h2 {
+    text-align: center;
+}
 
 .text_center {
     text-align: center;width: 100%;
 }
+
 .img_polygon {
     position: relative;
     -webkit-transition: .6s all, .3s .3s-webkit-transform;
