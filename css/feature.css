@@ -7,9 +7,26 @@
   text-align: center;
 }
 
+.feature__h3 {
+  font-size: 2em;
+  text-align: center;
+}
+
 .code__p {
   text-align: justify;
   font-size: 1.3em;
+
+}
+.code__p2 {
+  text-align: justify;
+  font-size: 1.3em;
+  padding-left: 10px;
+  border-left: inset  #fff 1px;
+
+}
+
+.direct__code {
+  width: 70%;
 }
 
 .navbar.navbar-9 .navbar-toggler-icon {
@@ -23,3 +40,4 @@
   display: flex;
   justify-content: flex-end;
 }
+
