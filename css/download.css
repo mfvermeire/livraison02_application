@@ -1,3 +1,8 @@
+.presentation {
+  background-color: hsl(0, 0%, 80%);
+  padding: 2rem;
+}
+
 main {
   padding: 1rem;
 }
@@ -16,4 +21,17 @@ main {
 
 .formulaire {
   padding: 5rem;
+}
+
+
+.navbar.navbar-9 .navbar-toggler-icon {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FBD8');
+
+}
+
+
+.navbar_hamburger{
+  margin-right: 30px;
+  display: flex;
+  justify-content: flex-end;
 }

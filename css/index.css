@@ -1,3 +1,8 @@
+.code {
+  padding: 3rem;
+  text-align: center;
+}
+
 .card-body {
     background-color: #0EA3F9 !important;
 }
@@ -8,4 +13,16 @@
 
 .gallery {
   padding: 5rem;
+}
+
+.navbar.navbar-9 .navbar-toggler-icon {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger3.svg?color=00FBD8');
+
+}
+
+
+.navbar_hamburger{
+  margin-right: 30px;
+  display: flex;
+  justify-content: flex-end;
 }
