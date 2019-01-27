@@ -1,8 +1,13 @@
 .code {
   padding: 3rem;
   text-align: center;
+  font-size: 2.5em;
 }
+.code__p {
 
+  text-align: center;
+  font-size: 1.5em;
+}
 .card-body {
     background-color: #0EA3F9 !important;
 }
