@@ -17,6 +17,8 @@
   <!-- css  commun main -->
   <link rel="stylesheet" href="css/main.css">
 
+  <link rel="stylesheet" href="css/download.css">
+
 </head>
 <body>
 
@@ -41,36 +43,134 @@
     </div>
   </div>
 
-<header>
-  <h1>Oh My Code</h1>
+  <header>
+    <h1>Oh My Code</h1>
 
-</header><!-- /header -->
-<main>
-  main
-</main>
+  </header><!-- /header -->
+  <main>
 
-<footer>
-  <div class="container-footer col-lg-12">
+    <!-- jumbotron -->
+    <div class="jumbotron presentation">
+      <h1 class="display-4">Téléchargement !</h1>
+      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <hr class="my-4">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
 
-
-
-
-    <div class="row info">
-      <div class="col-lg-4">
-        <h4>Lorem ipsum</h4>
-        <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum temporibus, veniam dolorem id possimus aspernatur magni enim non inventore quas repellendus laudantium veritatis odio aut consectetur tempora ea, sit necessitatibus!</p>
-        <button type="button" class="btn btn-primary btn-lg">En savoir +</button>
+    <!-- download -->
+    <div class="container col-lg-12">
+      <h2 class="h2__gallery">versions sans virus</h2>
+      <div class="row gallery">
+        <div class="col-lg dwn-mob">
+          <a href="#" download="mobile">
+            <img src="img/Mobile-icon.png" alt="download mobile">
+          </a>
+        </div>
+        <div class="col-lg dwn-tab">
+          <a href="#" download="tablet">
+            <img src="img/Tablet-icon.png" alt="download tablette">
+          </a>
+        </div>
+        <div class="col-lg dwn-lap">
+          <a href="#" download="windows">
+            <img src="img/Windows-icon.png" alt="download ordinateur">
+          </a>
+        </div>
       </div>
-      <div class="col-lg-5"></div>
-          <div class="embed-responsive embed-responsive-16by9 col-lg-3">
-            <iframe class="embed-responsive-item mobile__video" src="video/mobile.mp4" allowfullscreen></iframe>
-          </div>
+      <h2 class="h2__gallery">versions avec virus</h2>
+      <div class="row gallery">
+        <div class="col-lg dwn-mob">
+          <a href="#" download="mobile">
+            <img src="img/Mobile-icon.png" alt="download mobile">
+          </a>
+        </div>
+        <div class="col-lg dwn-tab">
+          <a href="#" download="tablet">
+            <img src="img/Tablet-icon.png" alt="download tablette">
+          </a>
+        </div>
+        <div class="col-lg dwn-lap">
+          <a href="#" download="mobile">
+            <img src="img/Windows-icon.png" alt="download ordinateur">
+          </a>
+        </div>
       </div>
     </div>
 
+<!--     fomulaire  -->
+  <form class="formulaire">
+  <h2>Pour Nous Contacté</h2>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Lille</option>
+        <option>Roubaix</option>
+        <option>Tourcoing</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <!--
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  -->
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
+<!-- /form  -->
 
 
+
+  </main>
+
+  <footer>
+    <div class="container-footer col-lg-12">
+
+      <div class="row info">
+        <div class="col-lg-4">
+          <h4>Lorem ipsum</h4>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum temporibus, veniam dolorem id possimus aspernatur magni enim non inventore quas repellendus laudantium veritatis odio aut consectetur tempora ea, sit necessitatibus!</p>
+          <button type="button" class="btn btn-primary btn-lg">En savoir +</button>
+        </div>
+        <div class="col-lg-5"></div>
+        <div class="embed-responsive embed-responsive-16by9 col-lg-3">
+          <iframe class="embed-responsive-item mobile__video" src="video/mobile.mp4" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
 
   </div>
 </footer>

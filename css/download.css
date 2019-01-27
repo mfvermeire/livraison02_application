@@ -1,0 +1,19 @@
+main {
+  padding: 1rem;
+}
+
+.gallery {
+  padding: 5rem;
+  height: auto;
+  text-align: center;
+
+}
+.h2__gallery {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2.5em;
+}
+
+.formulaire {
+  padding: 5rem;
+}
