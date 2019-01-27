@@ -1,3 +1,7 @@
+.top {
+  background-color: hsl(203, 12%, 36%)!important;
+}
+
 header {
 
   background-image: url('../img/header-template1.jpg');
@@ -19,6 +23,8 @@ h1 {
 
 .nav__header {
   padding-top: 8rem;
+  /*background-color: hsl(203, 12%, 36%) !important;*/
+
 }
 
 main {
