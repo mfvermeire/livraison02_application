@@ -1,3 +1,8 @@
+.presentation {
+  background-color: hsl(0, 0%, 80%);
+  padding: 2rem;
+}
+
 main {
   padding: 1rem;
 }
