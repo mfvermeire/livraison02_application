@@ -7,12 +7,14 @@ header {
   width: 100vw;
   height: 90vh;
   margin: auto;
+  color: #fff;
+  font-size: 2em;
 }
 
 h1 {
   margin: 0 auto;
-  padding: 10rem 25rem 7rem 0;
-  font-size: 3.5em;
+  padding: 10rem 35rem 7rem 0;
+  font-size: 3em;
 }
 
 .nav__header {
