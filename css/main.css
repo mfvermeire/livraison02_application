@@ -19,7 +19,7 @@ h1 {
 main {
   width: 100%;
   height: 100%;
-  background-color: blue;
+  background-color: hsl(0, 0%, 90%);
 }
 
 .info {
@@ -42,7 +42,7 @@ main {
 
 
 footer {
-  background-color: green;
+  background-color: hsl(203, 12%, 36%);
   padding-top:5rem;
 
 }
